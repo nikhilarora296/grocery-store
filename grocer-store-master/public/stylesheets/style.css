@@ -1,0 +1,71 @@
+html{
+  scroll-behavior: smooth;
+}
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.header {
+  background:  linear-gradient(#0f010bbd, #030a2986),url("/images/grocery-back.jpg");
+}
+.btn-transparent-white{
+  border:1px solid white;
+  border-radius: 15px;
+}
+.card{
+  height:400px;
+  transition: all 1s;
+}
+.card-product .img-wrap {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+  position: relative;
+  height: 220px;
+  text-align: center;
+}
+.card-product .img-wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card-product .info-wrap {
+  overflow: hidden;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+.card-product .bottom-wrap {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.label-rating { margin-right:10px;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-product .price-old {
+  color: #999;
+}
+
+footer {
+  background: #343a40;
+  padding: 40px;
+}
+footer a {
+  color: #f8f9fa!important
+}
+
+
+.card:hover{
+  transform: scale(1.1);
+}
+.carousel-inner img {
+  width: 100%;
+}
+.carousel-caption{
+  left:30%;
+  right:30%;
+}
+/*---sidenav-------*/
+

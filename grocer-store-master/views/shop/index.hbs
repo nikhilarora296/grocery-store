@@ -1,0 +1,90 @@
+<div id="demo" class="carousel slide py-5" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/first.jpg" alt="Los Angeles" width="1100" height="400px">
+             <div class="carousel-caption bg-light" style="opacity: .8;">
+                <h3 class="display-2 text-dark  myfont">Ghar Pe</h3>
+                <p class=" text-dark">The Grocery Store you need, for all your needs</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/second.jpg" alt="Chicago" width="1100" height="400px">
+             <div class="carousel-caption  bg-light"  style="opacity: .8;">
+                <h3 class="display-2 text-dark myfont">Ghar Pe</h3>
+                <p class=" text-dark">The Grocery Store you need, for all your needs</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/grocery-back.jpg" alt="New York" width="1100" height="400px">
+            <div class="carousel-caption  bg-light"  style="opacity: .8;">
+                <h3 class="display-2 text-dark  myfont">Ghar Pe</h3>
+                <p class=" text-dark">The Grocery Store you need, for all your needs</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+<!--
+<section class="py-5 header text-center">
+    <div class="container py-5 text-white">
+        <header class="py-5">
+            <h1 class="display-4">Ghar Pe</h1>
+            <p class="font-italic mb-1">The Grocery Store you need, for all your needs</p><br>
+            <button class="btn btn-transparent-white">
+                <a class="text-white" href="#main-container">
+                    Shop Now
+                </a>
+            </button>
+
+        </header>
+    </div>
+</section>
+-->
+<br><br>
+<!---thumbnails--->
+<div class="container" id="main-container">
+    <h1>Get the Best Deals</h1>
+    <hr><br>
+
+    {{# each products }}
+    <div class="row">
+        {{# each this }}
+        <div class="col-md-4">
+            <figure class="card card-product">
+                <div class="img-wrap"><img class="effects" src="{{this.imagePath}}" style="height:200px;"></div>
+                <figcaption class="info-wrap">
+                    <h4 class="title">{{this.title}}</h4>
+                    <p class="desc">{{this.description}}</p>
+                    <div class="rating-wrap">
+
+                    </div> <!-- rating-wrap.// -->
+                </figcaption>
+                <div class="bottom-wrap">
+                    <a href="/add-to-cart/{{this._id}}" class="btn btn-sm btn-success float-right"
+                        onclick="successFunc()">Add to Cart</a>
+                    <div class="price-wrap h5">
+                        <span class="price-new">₹{{this.price}}</span>
+                    </div> <!-- price-wrap.// -->
+                </div> <!-- bottom-wrap.// -->
+            </figure>
+        </div> <!-- col // -->
+        {{/each}}
+    </div>
+    {{/each}}
+
+</div>
+<script>
+    function successFunc() {
+        Swal.fire('Added', 'To the cart', 'success');
+    }
+</script>

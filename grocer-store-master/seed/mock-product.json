@@ -1,0 +1,88 @@
+[
+  {
+    "imagePath": "https://www.pngitem.com/pimgs/m/553-5532693_single-grocery-items-hd-png-download.png",
+    "title": "Bertolli Organic Mayo",
+    "description": "Spicy and rich mayo by Bertolli",
+    "price": "100",
+    "category": "snacks and dressings"
+  },
+  {
+    "imagePath": "https://i.pinimg.com/originals/76/1b/8d/761b8d1d5ef95333ef62c2c8e532505b.png",
+    "title": "Lays Cream Dip",
+    "description": "Lays Creamy Dip 400gms",
+    "price": "180",
+    "category": "snacks and dressings"
+  },
+  {
+    "imagePath": "https://i.pinimg.com/originals/d0/24/d2/d024d2d5c2287617451a94755553dee5.png",
+    "title": "Tapatio Mexican Sauce",
+    "description": "Delivered with real mexican herbs and spices, a hot mexican sauce by Tapatio",
+    "price": "80",
+    "category": "snacks and dressings"
+  },
+  {
+    "imagePath": "https://i.pinimg.com/originals/ef/a9/28/efa928b037adc9073815eac575d3e877.png",
+    "title": "Sir Kensington's Mayonnaise",
+    "description": "The Real Mayonnaise Experience from the masters",
+    "price": "150",
+    "category": "snacks and dressings"
+  },
+  {
+    "imagePath": "https://www.bakersplus.com/content/v2/binary/image/department/grocery/navicon_condiments-sauces-desktop-1576165924487.png",
+    "title": "Heinz Red Sauce",
+    "description": "The world famous Heiz, with their world famous red tomato ketchup",
+    "price": "250",
+    "category": "snacks and dressings"
+  },
+  {
+    "imagePath": "https://www.motherjones.com/wp-content/uploads/oranges_netting.jpg",
+    "title": "Orange",
+    "description": "Orange- Pack of 5",
+    "price": "40",
+    "category": "raw"
+  },
+  {
+    "imagePath": "https://www.verywellfit.com/thmb/o9bgonmph3lPZ9TkyNyu4yphcU4=/1745x1163/filters:no_upscale():max_bytes(150000):strip_icc()/Strawberries_Cropped-5c6ee809c9e77c0001be5146.jpg",
+    "title": "Strawberries",
+    "description": "Strawberries- 300gms",
+    "price": "75",
+    "category": "raw"
+  },
+  {
+    "imagePath": "https://i.pinimg.com/originals/2a/b6/7c/2ab67c97774d5f9adec001aa17db98bb.png",
+    "title": "Rana Basils",
+    "description": "Basils packages by Rana 200gms",
+    "price": "40",
+    "category": "raw"
+  },
+  {
+    "imagePath": "https://images-na.ssl-images-amazon.com/images/I/61FXwBMClcL._AC_SX522_.jpg",
+    "title": "Lays Classic (Small)",
+    "description": "Lays Classic Salted- Small Pack",
+    "price": "20",
+    "category": "raw"
+  },
+  {
+    "imagePath": "https://www.hi5mart.com/image/cache/catalog/branded%20foods/snacks/chips/Lays%20Potato%20Chips%20-%20Classic%20Salted,%2025%20gm%20Pouch-750x750.jpg",
+    "title": "Lays Classic (Big)",
+    "description": "Lays Classic Salted- Big Pack",
+    "price": "40",
+    "category": "raw"
+  },
+  {
+    "imagePath": "https://assets.gopaisa.com/unsafe/0x0/https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/flipkart-grocery-breakfast-items-corn-flakes-chocos-offer-discount-1529314833.jpg",
+    "title": "Kellogs Corn flakes",
+    "description": "Kellogs Corn Flakes - Real Honey- Box Pack",
+    "price": "340",
+    "category": "raw"
+  },
+  {
+    "imagePath": "https://www.bakersplus.com/content/v2/binary/image/department/pantry_coke-desktop-1582810517480.png",
+    "title": "Coca Cola 2L",
+    "description": "Coca Cola- 2 liters",
+    "price": "120",
+    "category": "bevrage"
+  }
+  
+  
+]

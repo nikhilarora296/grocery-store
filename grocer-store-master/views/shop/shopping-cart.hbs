@@ -1,0 +1,65 @@
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">Gharpe CART</h1>
+    </div>
+</section>
+
+{{#if products }}
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"> </th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Available</th>
+                            <th scope="col" class="text-center">Quantity</th>
+                            <th scope="col" class="text-right">Price</th>
+                            <th> </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            {{#each products}}
+                            <td><img src="{{this.item.imgPath}}" /> </td>
+                            <td>{{this.item.title}}</td>
+                            <td>In stock</td>
+                            <td><input class="form-control" type="text" value="{{this.qty}}" disabled/></td>
+                            <td class="text-right">₹{{this.price}}</td>
+                            <td class="text-right"><a href="/remove-cart/{{this.item._id}}" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </a> </td>
+                        </tr>
+                        {{/each}}
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><strong>Total</strong></td>
+                            <td class="text-right"><strong>₹{{totalPrice}}</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col mb-2">
+            <div class="row">
+                <div class="col-sm-12  col-md-6">
+                    <a href="/"><button class="btn btn-block btn-light">Continue Shopping</button></a>
+                </div>
+                <div class="col-sm-12 col-md-6 text-right">
+                    <a href="/checkout"><button class="btn btn-lg btn-block btn-success text-uppercase">Checkout</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{else}}
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
+        <h2>No items in Cart</h2>
+    </div>
+</div>
+{{/if}}
+
